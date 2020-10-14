@@ -29,7 +29,7 @@ public class LevelingDataParser {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(50, 178215);
         map.put(51, 205775);
-        map.put(52, 242790);
+        map.put(52, 238935);
         map.put(53, 272185);
         map.put(54, 315745);
         map.put(55, 355500);
@@ -185,7 +185,7 @@ public class LevelingDataParser {
         int startLevel = (int)Math.floor(startLevelXP);
         int stopLevel = (int)Math.floor(stopLevelXP);
         if (startLevel == stopLevel) {
-            return (int)((stopLevelXP - startLevel) * xpPerLevel.get(startLevel));
+            return (int)((stopLevelXP - startLevelXP) * xpPerLevel.get(startLevel));
         } else {
             int sum = xpPerLevel.get(startLevel) - (int)((startLevelXP - startLevel) * xpPerLevel.get(startLevel));
             for (int i=startLevel+1; i<=stopLevel; i++) {
