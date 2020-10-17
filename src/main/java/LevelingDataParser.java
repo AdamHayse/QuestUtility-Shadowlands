@@ -27,16 +27,16 @@ public class LevelingDataParser {
     private static final Map<Integer, Integer> xpPerLevel;
     static {
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(50, 178215);
-        map.put(51, 205775);
-        map.put(52, 238935);
-        map.put(53, 272185);
-        map.put(54, 315745);
-        map.put(55, 355500);
-        map.put(56, 397520);
-        map.put(57, 441860);
-        map.put(58, 488565);
-        map.put(59, 515400);
+        map.put(50, 177190);
+        map.put(51, 194600);
+        map.put(52, 205465);
+        map.put(53, 216600);
+        map.put(54, 228005);
+        map.put(55, 239680);
+        map.put(56, 251625);
+        map.put(57, 263840);
+        map.put(58, 276325);
+        map.put(59, 289080);
         xpPerLevel = Collections.unmodifiableMap(map);
     }
 
