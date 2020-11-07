@@ -28,15 +28,15 @@ public class LevelingDataParser {
     static {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(50, 177190);
-        map.put(51, 194600);
-        map.put(52, 205465);
-        map.put(53, 216600);
-        map.put(54, 228005);
-        map.put(55, 239680);
-        map.put(56, 251625);
-        map.put(57, 263840);
-        map.put(58, 276325);
-        map.put(59, 289080);
+        map.put(51, 212870);//
+        map.put(52, 225770);//this is the amount of exp required to go from 52 to 53
+        map.put(53, 240255);//
+        map.put(54, 255180);//
+        map.put(55, 272795);//
+        map.put(56, 291495);//
+        map.put(57, 311490);//
+        map.put(58, 332165);//
+        map.put(59, 353410);//
         xpPerLevel = Collections.unmodifiableMap(map);
     }
 

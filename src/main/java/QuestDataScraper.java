@@ -70,7 +70,9 @@ public class QuestDataScraper {
                     || itemHtml.toLowerCase().contains("argent dawn valor token")
                     || itemHtml.toLowerCase().contains("chromie's scroll")
                     || itemHtml.toLowerCase().contains("brimming stoneborn heart")
-                    || itemHtml.toLowerCase().contains("memory of a vital sacrifice")) {
+                    || itemHtml.toLowerCase().contains("memory of a vital sacrifice")
+                    || itemHtml.toLowerCase().contains("depleted stoneborn heart")
+                    || itemHtml.toLowerCase().contains("kyrian javelin")) {
                 continue;
             }
             Matcher m2 = Pattern.compile("(<h1(.|\\s)+?<\\/noscript>)").matcher(itemHtml);
