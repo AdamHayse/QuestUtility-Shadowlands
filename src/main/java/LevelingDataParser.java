@@ -27,7 +27,7 @@ public class LevelingDataParser {
     private static final Map<Integer, Integer> xpPerLevel;
     static {
         Map<Integer, Integer> map = new HashMap<>();
-        map.put(50, 177190);
+        map.put(50, 194030);
         map.put(51, 212870);//
         map.put(52, 225770);//this is the amount of exp required to go from 52 to 53
         map.put(53, 240255);//
